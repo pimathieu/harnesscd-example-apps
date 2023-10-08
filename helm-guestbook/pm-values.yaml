@@ -5,8 +5,8 @@
 replicaCount: 3
 
 image:
-  repository: docker.io/bitnami/nginx:latest
-  tag: 0.1
+  repository: docker.io/bitnami/nginx
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
